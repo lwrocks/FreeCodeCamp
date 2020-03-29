@@ -20,19 +20,20 @@
         </p>
         <form action="/do-something" id="survey-form" method="POST">
           <label for="name" class="form-label" id="name-label">Name</label>
-          <input type="text" id="name" name="name" required />
+          <input type="text" id="name" name="name" required placeholder="Enter your name"/>
           <label for="Email" class="form-label" id="email-label">Email</label>
-          <input type="email" id="email" pattern=".+@email.com" required />
-          <label for="age" class="form-label" id="age-label">Age</label>
+          <input type="email" id="email" pattern=".+@email.com" required placeholder="Enter your email address"/>
+          <label for="age" class="form-label" id="age-label" placeholder="25">Age</label>
           <input type="number" id="number" />
           <label for="trip-frequency" class="form-label"
             >How often do you travel in a calendar year?</label
           >
-          <select name="trip-frequency" id="">
+          <select name="trip-frequency" class="form-label">
             <option value="option1">0-2 Trips</option>
             <option value="option2">3-6 Trips</option>
             <option value="option3">7+ Trips</option>
           </select>
+          <label for="sources" class="form-label"></label>
         </form>
       </div>
     </main>

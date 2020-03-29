@@ -13,3 +13,7 @@ body {
 .heading-one {
     font-family: 'Sen', sans-serif;
 }
+
+.form-label {
+    color: blue;
+}
