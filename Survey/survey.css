@@ -5,6 +5,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
 
 body {
+  background-color: #59c9c5;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -16,24 +17,90 @@ body {
 
 .travel-form {
   display: inline-grid;
+  background-color: #4d4249;
+  padding: 40px;
+  width: 40vw;
+  border-radius: 5px;
 }
 
 .name-input {
-  display: flex;
-  padding-left: 23vw;
+  display: contents;
+}
+
+.name-input input {
+  width: 30vw;
+  border: 2px solid #ff5ed5;
+  padding: 5px;
+  margin-top: 1vh;
+}
+
+#name-label {
+  text-align: left;
 }
 
 .email-input {
-  display: flex;
-  padding-left: 20vw;
+  display: contents;
+}
+
+.email-input input {
+  width: 30vw;
+  border: 2px solid #ff5ed5;
+  padding: 5px;
+  margin-top: 1vh;
+}
+
+#email-label {
+  text-align: left;
+  padding-top: 2vh;
+}
+
+.age-input {
+  display: contents;
+}
+
+#number-label {
+  text-align: left;
+  margin-top: 2vh;
 }
 
 .age-input input {
+  width: 30vw;
+  padding: 5px;
+  margin-top: 1vh;
+  border: 2px solid #ff5ed5;
+}
+
+.trip-frequency-select {
+  display: contents;
+}
+
+.trip-frequency-select select {
+  margin-top: 1vh;
   width: 10vw;
 }
 
+#frequency-select {
+  text-align: left;
+  margin-top: 2vh;
+}
+
+/* #dropdown {
+  font-family: "Montserrat", sans-serif;
+} */
+
+.sources {
+  margin-top: 2vh;
+  display: contents;
+}
+
+.sources li {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 25vw;
+}
+
 .form-label {
-  color: blue;
+  color: #fff;
 }
 
 .user-feedback {
