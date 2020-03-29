@@ -24,131 +24,211 @@
           method="POST"
           class="travel-form"
         >
-          <label for="name" class="form-label" id="name-label">Name</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            required
-            placeholder="Enter your name"
-          />
-          <label for="Email" class="form-label" id="email-label">Email</label>
-          <input
-            type="email"
-            id="email"
-            pattern=".+@email.com"
-            required
-            placeholder="Enter your email address"
-          />
-          <label for="age" class="form-label" id="age-label" placeholder="25"
-            >Age</label
-          >
-          <input type="number" id="number" />
-          <label for="trip-frequency" class="form-label"
-            >How often do you travel in a calendar year?</label
-          >
-          <select name="trip-frequency" class="form-label" id="dropdown">
-            <option value="option1">0-2 Trips</option>
-            <option value="option2">3-6 Trips</option>
-            <option value="option3">7+ Trips</option>
-          </select>
-          <label for="sources" class="form-label"
-            >What sources do you use to find information about a destination
-            that you're interested in?
-            <br />
-            Select all that apply.
-          </label>
-          <label
-            ><input
-              type="checkbox"
-              value="google"
-              class="source-selection"
-            />Google</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="tripadvisor"
-              class="source-selection"
-            />TripAdvisor</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="Pinterest"
-              class="source-selection"
-            />Pinterest</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="word of mouth"
-              class="source-selection"
-            />Word of Mouth</label
-          >
-          <label
-            for="transportation"
-            class="form-label"
-            id="transportation-selection"
-            >What types of activities do you like to do during a holiday?</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="city tours"
-              class="activity-selection"
-            />City Tours</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="dining experiences"
-              class="activity-selection"
-            />Dining Experiences</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="adventure"
-              class="activity-selection"
-            />Adventure/Sports</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="meditations"
-              class="activity-selection"
-            />Meditation/Relaxation</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="nightlife"
-              class="activity-selection"
-            />Nightlife</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="beach"
-              class="activity-selection"
-            />Beach</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="workshops"
-              class="activity-selection"
-            />Workshops</label
-          >
-          <label for="next-holiday" class="form-label"
-            >When do you plan to take your next holiday?</label
-          >
-          <select name="next-holiday" id="next-holiday-select">
-            <option value="0-3 months">0-3 Months</option>
-            <option value="4-6 months">4-6 Months</option>
-            <option value="6-12 months">6-12 Months</option>
-          </select>
+          <div class="name-input">
+            <label for="name" class="form-label" id="name-label">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="email-input">
+            <label for="Email" class="form-label" id="email-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="Enter your email address"
+            />
+          </div>
+          <div class="age-input">
+            <label for="age" class="form-label" id="number-label"
+              >Age (optional)</label
+            >
+            <input
+              type="number"
+              id="number"
+              placeholder="Enter your age"
+              min="18"
+              max="45"
+            />
+          </div>
+          <div class="trip-frequency-select">
+            <label for="trip-frequency" class="form-label"
+              >How often do you travel in a calendar year?</label
+            >
+            <select name="trip-frequency" class="form-label" id="dropdown">
+              <option value="1">0-2 Trips</option>
+              <option value="2">3-6 Trips</option>
+              <option value="3">7+ Trips</option>
+            </select>
+          </div>
+          <div class="sources">
+            <label for="sources" class="form-label"
+              >What sources do you use to find information about a destination
+              that you're interested in?
+              <br />
+              Select all that apply.
+            </label>
+            <li>
+              <label
+                ><input
+                  type="checkbox"
+                  value="google"
+                  class="source-selection"
+                />Google</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="checkbox"
+                  value="google"
+                  class="source-selection"
+                />Google</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="checkbox"
+                  value="Pinterest"
+                  class="source-selection"
+                />Pinterest</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="checkbox"
+                  value="word of mouth"
+                  class="source-selection"
+                />Word of Mouth</label
+              >
+            </li>
+          </div>
+          <div class="transportation-radio">
+            <label
+              for="transportation-mode"
+              id="transportation-radio-select"
+              class="form-label"
+              >What is your preferred mode of transporation?</label
+            >
+            <li>
+              <input
+                type="radio"
+                name="transportation-radio-button"
+                value="plane"
+              />Plane
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="transportation-radio-button"
+                value="train"
+              />Train
+            </li>
+            <li>
+              <input
+                type="radio"
+                name="transportation-radio-button"
+                value="car"
+              />Car
+            </li>
+          </div>
+          <div class="activities-input">
+            <label for="activities" class="form-label" id="activity-selection"
+              >What types of activities do you like to do during a
+              holiday?</label
+            >
+            <li>
+              <label
+                ><input
+                  type="checkbox"
+                  value="city tours"
+                  class="activity-selection"
+                />City Tours</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="checkbox"
+                  value="dining experiences"
+                  class="activity-selection"
+                />Dining Experiences</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="checkbox"
+                  value="adventure"
+                  class="activity-selection"
+                />Adventure/Sports</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="checkbox"
+                  value="meditations"
+                  class="activity-selection"
+                />Meditation/Relaxation</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="checkbox"
+                  value="nightlife"
+                  class="activity-selection"
+                />Nightlife</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="checkbox"
+                  value="beach"
+                  class="activity-selection"
+                />Beach</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="checkbox"
+                  value="workshops"
+                  class="activity-selection"
+                />Workshops</label
+              >
+            </li>
+          </div>
+          <div class="next-holiday-input">
+            <label for="next-holiday" class="form-label"
+              >When do you plan to take your next holiday?</label
+            >
+            <select name="next-holiday" id="next-holiday-select">
+              <option value="0-3 months">0-3 Months</option>
+              <option value="4-6 months">4-6 Months</option>
+              <option value="6-12 months">6-12 Months</option>
+            </select>
+          </div>
+          <div class="user-feedback">
+            <label for="user-feedback" class="form-label"
+              >What features are important to you in a travel app?</label
+            >
+            <textarea
+              name="important-features"
+              id="textarea"
+              cols="20"
+              rows="5"
+            ></textarea>
+          </div>
+          <button class="form-button" id="submit" type="submit">Submit</button>
         </form>
       </div>
     </main>

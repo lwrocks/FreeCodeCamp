@@ -18,6 +18,24 @@ body {
   display: inline-grid;
 }
 
+.name-input {
+  display: flex;
+  padding-left: 23vw;
+}
+
+.email-input {
+  display: flex;
+  padding-left: 20vw;
+}
+
+.age-input input {
+  width: 10vw;
+}
+
 .form-label {
   color: blue;
+}
+
+.user-feedback {
+  display: contents;
 }
