@@ -6,4 +6,10 @@
 
 body {
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.heading-one {
+    font-family: 'Sen', sans-serif;
 }
