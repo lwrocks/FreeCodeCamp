@@ -18,8 +18,9 @@ body {
 .travel-form {
   display: inline-grid;
   background-color: #4d4249;
+  margin-top: 2vh;
   padding: 40px;
-  width: 40vw;
+  width: 32vw;
   border-radius: 5px;
 }
 
@@ -29,7 +30,8 @@ body {
 
 .name-input input {
   width: 30vw;
-  border: 2px solid #ff5ed5;
+  border: 1px solid #ff5ed5;
+  border-radius: 4px;
   padding: 5px;
   margin-top: 1vh;
 }
@@ -44,7 +46,8 @@ body {
 
 .email-input input {
   width: 30vw;
-  border: 2px solid #ff5ed5;
+  border: 1px solid #ff5ed5;
+  border-radius: 4px;
   padding: 5px;
   margin-top: 1vh;
 }
@@ -67,7 +70,8 @@ body {
   width: 30vw;
   padding: 5px;
   margin-top: 1vh;
-  border: 2px solid #ff5ed5;
+  border: 1px solid #ff5ed5;
+  border-radius: 4px;
 }
 
 .trip-frequency-select {
@@ -81,7 +85,7 @@ body {
 
 #frequency-select {
   text-align: left;
-  margin-top: 2vh;
+  margin-top: 4vh;
 }
 
 /* #dropdown {
@@ -89,14 +93,85 @@ body {
 } */
 
 .sources {
-  margin-top: 2vh;
   display: contents;
+}
+
+#sources-label {
+  margin-top: 4vh;
+  text-align: left;
 }
 
 .sources li {
   list-style-type: none;
   text-align: left;
-  padding-left: 25vw;
+  color: #fff;
+  margin-top: 1vh;
+}
+
+.transportation-radio {
+  display: contents;
+}
+
+#transportation-radio-select {
+  margin-top: 4vh;
+  text-align: left;
+}
+
+.transportation-radio li {
+  list-style-type: none;
+  text-align: left;
+  color: #fff;
+  margin-top: 1vh;
+}
+
+.activities-input {
+  display: contents;
+}
+
+#activity-selection {
+  margin-top: 4vh;
+  text-align: left;
+}
+
+.activities-input li {
+  list-style-type: none;
+  text-align: left;
+  color: #fff;
+  margin-top: 1vh;
+}
+
+.next-holiday-input {
+  display: contents;
+}
+
+#holiday-input-label {
+  margin-top: 4vh;
+  text-align: left;
+}
+
+.next-holiday-input select {
+  width: 10vw;
+  margin-top: 1vh;
+}
+
+#user-feedback-label {
+  margin-top: 4vh;
+  text-align: left;
+}
+
+.user-feedback textarea {
+  margin-top: 1vh;
+}
+
+.form-button {
+  margin-top: 5vh;
+  padding: 20px;
+  font-family: "Sen", sans-serif;
+  font-size: 24px;
+  background-color: #e5007c;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
 }
 
 .form-label {
