@@ -5,15 +5,19 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
 
 body {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 }
 
 .heading-one {
-    font-family: 'Sen', sans-serif;
+  font-family: "Sen", sans-serif;
+}
+
+.travel-form {
+  display: inline-grid;
 }
 
 .form-label {
-    color: blue;
+  color: blue;
 }
