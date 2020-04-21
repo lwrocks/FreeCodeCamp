@@ -1,27 +1,27 @@
 /* Import Manrope Extra Bold */
-@font-face {
-  font-family: "Manrope", sans-serif;
-  src: url(https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap);
-  font-weight: 800;
-}
-
-/* Import Manrope Regular */
-@font-face {
-  font-family: "Manrope", sans-serif;
-  src: url(https://fonts.googleapis.com/css2?family=Manrope&display=swap);
-  font-weight: 400;
-}
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap);
 
 /* Import Roboto Regular */
-@font-face {
-  font-family: "Roboto", sans-serif;
-  src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
-  font-weight: 400;
-}
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  background-color: #F4ACB7;
-  color: #9D8189;
+  background-color: #f4acb7;
+  color: #9d8189;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+}
+
+/* Header Navigation */
+.user-auth {
+  text-align: right;
+}
+
+.user-auth a {
+  text-decoration: none;
 }
