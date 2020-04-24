@@ -1,26 +1,107 @@
-/* Import Manrope Extra Bold */
-@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap);
+/* Import Sen Extra Bold */
+@import url(https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap);
 
-/* Import Roboto Regular */
-@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+/* Import Open Sans Regular */
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   text-align: center;
   margin: 0;
 }
 
 h1 {
-  font-family: "Manrope", sans-serif;
-  text-align: center;
+  font-family: "Sen", sans-serif;
+  font-size: 2.25rem;
+  color: #FF686B;
+}
+
+h2 {
+  font-family: "Sen", sans-serif;
+  font-size: 1.5rem;
+  color: #347742;
 }
 
 /* Header Navigation */
 .user-auth {
   text-align: right;
+  padding: 1vw;
+  background-color: #A5FFD6;
 }
 
 .user-auth a {
   text-decoration: none;
+  color: #000;
+}
+
+.user-auth a:hover {
+  color: #FF686B;
+}
+
+.logo {
+  width: 20%;
+  margin-top: 1.25vh;
+  margin-left: -12vw;
+  padding: 0.5vw;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: #84DCC6;
+  width: 100%;
+}
+
+.nav-ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 33vw;
+}
+
+.nav-link {
+  padding: 2vw;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link a:hover {
+  color: #FF686B;
+}
+
+/* Body Styling */
+.booking-steps {
+  max-width: 21.875rem;
+  text-align: left;
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 43vw;
+}
+
+.booking-steps li {
+  margin: 0 0 0.5rem 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+  padding: 0.25rem;
+}
+
+.booking-steps li::before {
+  content: counter(my-awesome-counter);
+  background-color: #FF686B;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  --size: 32px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  transform: rotate(-10deg);
+  top: 0;
+  padding: 0.5rem;
+  border-radius: 50%;
+  text-align: center;
 }
