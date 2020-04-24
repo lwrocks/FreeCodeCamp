@@ -14,7 +14,7 @@ body {
 h1 {
   font-family: "Sen", sans-serif;
   font-size: 2.25rem;
-  color: #FF686B;
+  color: #ff686b;
 }
 
 h2 {
@@ -32,7 +32,7 @@ h3 {
 .user-auth {
   text-align: right;
   padding: 1vw;
-  background-color: #A5FFD6;
+  background-color: #a5ffd6;
 }
 
 .user-auth a {
@@ -41,7 +41,7 @@ h3 {
 }
 
 .user-auth a:hover {
-  color: #FF686B;
+  color: #ff686b;
 }
 
 .logo {
@@ -54,7 +54,7 @@ h3 {
 .nav-bar {
   display: flex;
   flex-direction: row;
-  background-color: #84DCC6;
+  background-color: #84dcc6;
   width: 100%;
 }
 
@@ -66,15 +66,12 @@ h3 {
 
 .nav-link {
   padding: 2vw;
-}
-
-.nav-link a {
   text-decoration: none;
   color: #000;
 }
 
-.nav-link a:hover {
-  color: #FF686B;
+.nav-link:hover {
+  color: #ff686b;
 }
 
 /* Body Styling */
@@ -99,8 +96,8 @@ h3 {
 
 .booking-steps li::before {
   content: counter(my-awesome-counter);
-  background-color: #FF686B;
-  color: #FFF;
+  background-color: #ff686b;
+  color: #fff;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   --size: 32px;
@@ -127,7 +124,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 6.313rem;
+  padding: 1.125rem;
 }
 
 .packages-wrapper img {
@@ -139,20 +136,20 @@ h3 {
 }
 
 .packages-wrapper button {
-  background-color: #FF686B;
+  background-color: #ff686b;
   padding: 0.75rem;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  color: #FFF;
+  color: #fff;
 }
 
 #yacht {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 	0.9375rem;
-  width: calc(100/3);
-  border: 2px solid #FFA69E;
+  padding: 0.9375rem;
+  width: calc(100 / 3);
+  border: 2px solid #ffa69e;
   border-radius: 10px;
 }
 
@@ -160,9 +157,9 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 	0.9375rem;
-  width: calc(100/3);
-  border: 2px solid #FFA69E;
+  padding: 0.9375rem;
+  width: calc(100 / 3);
+  border: 2px solid #ffa69e;
   border-radius: 10px;
 }
 
@@ -170,16 +167,15 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 	0.9375rem;
-  width: calc(100/3);
-  border: 2px solid #FFA69E;
+  padding: 0.9375rem;
+  width: calc(100 / 3);
+  border: 2px solid #ffa69e;
   border-radius: 10px;
 }
 
-
 /* Footer */
 .footer {
-  background-color: #84DCC6;
+  background-color: #84dcc6;
   padding: 0.5rem;
   width: 100%;
   justify-content: center;
@@ -201,5 +197,5 @@ h3 {
 }
 
 .footer-links a:hover {
-  color: #FF686B;
+  color: #ff686b;
 }
