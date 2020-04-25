@@ -51,7 +51,7 @@ h3 {
 .nav-bar {
   display: flex;
   flex-direction: row;
-  background-color: #A5FFD6;
+  background-color: #a5ffd6;
   width: 100%;
 }
 
@@ -76,7 +76,8 @@ h3 {
 .hero-image {
   width: 100%;
   height: 65vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/Hero-Image.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Hero-Image.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -94,12 +95,12 @@ h3 {
   font-size: 4.5rem;
   padding-top: 14vh;
   letter-spacing: 0.078rem;
-  color: #FFF;
+  color: #fff;
 }
 
 .hero-text p {
   font-size: 1.25rem;
-  color: #FFF;
+  color: #fff;
   margin-top: -3vh;
   padding-bottom: 5vh;
 }
@@ -107,13 +108,13 @@ h3 {
 .hero-banner-link {
   text-decoration: none;
   font-size: 1.25rem;
-  color: #FFF;
+  color: #fff;
   background-color: #ff686b;
   padding: 1.5vw;
 }
 
 .hero-banner-link:hover {
-  background-color: #FFF;
+  background-color: #fff;
   color: #ff686b;
 }
 
@@ -224,7 +225,7 @@ h3 {
 .subscribe {
   padding-top: 6vh;
   padding-bottom: 6vh;
-  background-color: #84DCC6;
+  background-color: #84dcc6;
 }
 
 .subscribe h2 {
@@ -232,7 +233,7 @@ h3 {
 }
 
 .subscribe p {
-  margin-top: -2vh; 
+  margin-top: -2vh;
 }
 
 #email {
@@ -254,7 +255,7 @@ h3 {
 
 /* Footer */
 .footer {
-  background-color: #A5FFD6;
+  background-color: #a5ffd6;
   padding: 1vw;
   width: 100%;
   justify-content: center;
