@@ -1,11 +1,11 @@
 /* Import Sen Extra Bold */
 @import url(https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap);
 
-/* Import Open Sans Regular */
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+/* Import Montserrat */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   text-align: center;
   margin: 0;
@@ -29,21 +29,6 @@ h3 {
 }
 
 /* Header Navigation */
-.user-auth {
-  text-align: right;
-  padding: 1vw;
-  background-color: #a5ffd6;
-}
-
-.user-auth a {
-  text-decoration: none;
-  color: #000;
-}
-
-.user-auth a:hover {
-  color: #ff686b;
-}
-
 .logo {
   width: 20%;
   margin-top: 1.25vh;
@@ -61,7 +46,8 @@ h3 {
 .nav-ul {
   list-style-type: none;
   display: flex;
-  margin-left: 33vw;
+  margin-left: 30vw;
+  margin-top: 6vh;
 }
 
 .nav-link {
