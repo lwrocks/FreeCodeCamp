@@ -19,7 +19,8 @@ h1 {
 
 h2 {
   font-family: "Sen", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.25rem;
+  letter-spacing: 0.078rem;
   color: #347742;
 }
 
@@ -44,13 +45,13 @@ h3 {
 }
 
 .header-spacer {
-  height: 7.5rem;
+  height: 8vh;
 }
 
 .nav-bar {
   display: flex;
   flex-direction: row;
-  background-color: #84dcc6;
+  background-color: #A5FFD6;
   width: 100%;
 }
 
@@ -74,6 +75,7 @@ h3 {
 /* Body Styling */
 .hero-image {
   width: 100%;
+  height: 65vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/Hero-Image.jpg);
   background-size: cover;
   background-position: center center;
@@ -88,12 +90,43 @@ h3 {
   z-index: -1;
 }
 
+.hero-banner-heading {
+  font-size: 4.5rem;
+  padding-top: 14vh;
+  letter-spacing: 0.078rem;
+  color: #FFF;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  color: #FFF;
+  margin-top: -3vh;
+  padding-bottom: 5vh;
+}
+
+.hero-banner-link {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #FFF;
+  background-color: #ff686b;
+  padding: 1.5vw;
+}
+
+.hero-banner-link:hover {
+  background-color: #FFF;
+  color: #ff686b;
+}
+
+.description {
+  padding-top: 8vh;
+}
+
 .how-it-works {
   padding: 0.313rem;
 }
 
 .booking-steps {
-  max-width: 21.875rem;
+  max-width: 27.344vw;
   text-align: left;
   counter-reset: my-awesome-counter;
   list-style: none;
@@ -151,9 +184,10 @@ h3 {
 .packages-wrapper button {
   background-color: #ff686b;
   padding: 0.75rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #fff;
+  border: none;
 }
 
 #yacht {
@@ -186,10 +220,42 @@ h3 {
   border-radius: 10px;
 }
 
+/* Subscribe */
+.subscribe {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  background-color: #84DCC6;
+}
+
+.subscribe h2 {
+  margin-top: -2vh;
+}
+
+.subscribe p {
+  margin-top: -2vh; 
+}
+
+#email {
+  width: 20vw;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 1vw;
+}
+
+#submit {
+  background-color: #ff686b;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 1vw;
+  border: none;
+}
+
 /* Footer */
 .footer {
-  background-color: #84dcc6;
-  padding: 0.5rem;
+  background-color: #A5FFD6;
+  padding: 1vw;
   width: 100%;
   justify-content: center;
 }
@@ -224,6 +290,10 @@ h3 {
     margin-left: -30vw;
   }
   .header-spacer {
-    height: 5.625rem;
+    height: 4vh;
+  }
+  .hero-banner-heading {
+    font-size: 3rem;
+    padding-top: 22vh;
   }
 }
