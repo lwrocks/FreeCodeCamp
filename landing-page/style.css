@@ -72,6 +72,22 @@ h3 {
 }
 
 /* Body Styling */
+.hero-image {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/Hero-Image.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  margin-top: 0.625rem;
+}
+
+.hero-image img {
+  width: 100%;
+  z-index: -1;
+}
+
 .how-it-works {
   padding: 0.313rem;
 }
