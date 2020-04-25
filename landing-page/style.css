@@ -36,6 +36,17 @@ h3 {
   padding: 0.5vw;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.header-spacer {
+  height: 7.5rem;
+}
+
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -184,4 +195,19 @@ h3 {
 
 .footer-links a:hover {
   color: #ff686b;
+}
+
+/* Mobile Styling */
+@media screen and (max-width: 640px) {
+  .nav-ul {
+    margin-top: 5vh;
+    margin-left: -15vw;
+    font-size: 0.813rem;
+  }
+  .logo {
+    margin-left: -30vw;
+  }
+  .header-spacer {
+    height: 5.625rem;
+  }
 }
