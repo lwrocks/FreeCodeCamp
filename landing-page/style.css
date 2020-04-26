@@ -126,43 +126,6 @@ h3 {
   padding: 0.313rem;
 }
 
-.booking-steps {
-  max-width: 27.344vw;
-  text-align: left;
-  counter-reset: my-awesome-counter;
-  list-style: none;
-  padding-left: 42vw;
-}
-
-.booking-steps li {
-  margin: 0 0 0.5rem 0;
-  counter-increment: my-awesome-counter;
-  position: relative;
-  padding: 0.25rem;
-}
-
-.booking-steps li::before {
-  content: counter(my-awesome-counter);
-  background-color: #ff686b;
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  --size: 32px;
-  left: calc(-1 * var(--size) - 10px);
-  line-height: var(--size);
-  width: var(--size);
-  height: var(--size);
-  transform: rotate(-10deg);
-  top: 0;
-  padding: 0.625rem;
-  border-radius: 50%;
-  text-align: center;
-}
-
-.booking-steps span {
-  padding-left: 0.5rem;
-}
-
 .contact {
   padding: 0.313rem;
 }
