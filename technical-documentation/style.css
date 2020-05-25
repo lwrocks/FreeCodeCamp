@@ -1,0 +1,15 @@
+/* Import Sen Extra Bold (800) */
+@import url(https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap);
+
+/* Import Sen Bold (700) */
+@import url(https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap);
+
+/* Import Roboto Regular (400) */
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
