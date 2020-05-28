@@ -105,7 +105,7 @@ header {
 }
 
 .projects {
-  background-color: #EDE8F7;
+  background-color: #ede8f7;
 }
 
 .projects p {
@@ -134,6 +134,30 @@ header {
   padding: 9vw;
 }
 
+.contact p {
+  text-align: center;
+}
+
+.contact-links {
+  margin-top: 5vh;
+  margin-left: 26.5vw;
+}
+
+#profile-link {
+  text-decoration: none;
+  padding: 2vw;
+  color: #346f58;
+  font-size: 1.125rem;
+}
+
+#profile-link:hover {
+  color: #77bfa3;
+}
+
+.contact-links i {
+  padding: 0.4vw;
+}
+
 .footer {
   width: 100%;
   height: 15vh;
@@ -141,8 +165,15 @@ header {
 
 .footer p {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #346f58;
   border-top: 3px solid #77bfa3;
   padding-top: 5vh;
+}
+
+/* Mobile Styling */
+@media screen and (max-width: 700px) {
+  .contact-links {
+    margin-left: 19vw;
+  }
 }
