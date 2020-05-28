@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Laurel's WebDev Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/3798285c99.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="header-spacer"></div>
     <header>
       <nav class="main-navigation" id="navbar">
         <img src="./images/LWROCKS Logo 2020.png" alt="LWROCKS Portfolio Logo" class="logo" />
@@ -22,6 +24,7 @@
         <div class="portfolio-hero-image-text">
           <h1 class="hero-heading">Laurel Wright</h1>
           <p>Frontend Developer</p>
+          <br>
           <a href="#Contact">Contact</a>
         </div>
       </div>
@@ -29,13 +32,12 @@
         <a id="About"></a>
         <h2>About Me</h2>
         <p>
-          In a past life, I was a digital marketing professional. Over the past year, I have pivoted my career
-          trajectory to focus on building websites and apps. I am passionate about problem-solving and providing awesome
-          user experiences. I specialise in incorporating CSS and JavaScript elements into Squarespace websites. You can
-          view my portfolio at www.lwrocks.com. I am currently enrolled in the full-stack development bootcamp at
-          Ironhack. Once the bootcamp is complete, I will be open to freelance or full-time opportunities in front end
-          or UI development. In addition to my work as a Creative Developer, I am a community manager for Girl Gone
-          International.
+          In a past life, I was a digital marketing professional. Over the past year, I have pivoted my career trajectory to focus on
+          building websites and apps. I am passionate about problem-solving and providing awesome user experiences. I specialise in
+          incorporating CSS and JavaScript elements into Squarespace websites. You can view my portfolio at www.lwrocks.com. I am currently
+          enrolled in the full-stack development bootcamp at Ironhack. Once the bootcamp is complete, I will be open to freelance or
+          full-time opportunities in front end or UI development. In addition to my work as a Creative Developer, I am a community manager
+          for Girl Gone International.
         </p>
         <h3>Languages & Frameworks</h3>
         <ul>
@@ -58,27 +60,30 @@
         <h2>Projects</h2>
         <p>Check out some of my recent projects!</p>
         <div class="project-container">
-          <div class="project-title" id="love-stories">
+          <div class="project-tile" id="love-stories">
             <h3><a href="https://www.bymirjam.com/">Love Stories by Mirjam</a></h3>
-            <img src="./images/Love Stories.png" alt="Love Stories by Mirjam Grupp" />
-            <p>Tech Stack: Squarespace, HTML, CSS, JavaScript</p>
+            <img src="./images/Love Stories.png" alt="Love Stories by Mirjam Grupp" width="371px" height="235px"/>
           </div>
-          <div class="project-title" id="ggi">
+          <div class="project-tile" id="ggi">
             <h3><a href="https://girl-gone-international.herokuapp.com/">Girl Gone International</a></h3>
-            <img src="./images/GGI.png" alt="Girl Gone International" />
-            <p>Tech Stack: CSS, JavaScript, Node.js, Handlebars, Express, MongoDB, Mapbox API</p>
+            <img src="./images/GGI.png" alt="Girl Gone International" width="371px" height="235px"/>
           </div>
-          <div class="project-title" id="kitaschluessel">
+          <div class="project-tile" id="kitaschluessel">
             <h3><a href="https://kitaschluessel.herokuapp.com/">KitaSchlüssel</a></h3>
-            <img src="./images/KitaSchluessel.png" alt="KitaSchlüssel" />
-            <p>Tech Stack: JavaScript, React.js, CSS, Node.js, MongoDB, Mapbox API</p>
+            <img src="./images/KitaSchluessel.png" alt="KitaSchlüssel" width="371px" height="235px"/>
           </div>
         </div>
       </section>
       <section class="contact">
+        <a id="Contact"></a>
         <h2>Let's work together!</h2>
         <p>If you have a fun project idea, get in touch and let's chat about it!</p>
-        <div class="contact-links"></div>
+        <div class="contact-links">
+          <a href="https://github.com/lwrocks" id="profile-link" target="_blank"><i class="fab fa-github-square"></i>GitHub</a>
+          <a href="https://www.instagram.com/lwrocks/" id="profile-link" target="_blank"><i class="fab fa-instagram-square">Instagram</i></a>
+          <a href="https://www.linkedin.com/in/laureldwright/" id="profile-link" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+          <a href="mailto:hello@lwrocks.com" id="profile-link" target="_blank"><i class="fas fa-envelope-square"></i>Email</a>
+        </div>
       </section>
     </main>
     <footer class="footer">
